@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Tu");
+
         if (other.CompareTag("Wall") || other.CompareTag("Coin"))
         {
             Debug.Log("Tutaj wall");

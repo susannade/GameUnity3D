@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b27a55bff6a91d2479574b5c84ff6293
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Hp: {instanceID: 0}
+  - FullHp: {fileID: 21300000, guid: 7d67576dfcb5894469aaf528ed94fc2b, type: 3}
+  - MidHp: {fileID: 21300000, guid: 37fe8551154905a48ab30fa8b7b93fe9, type: 3}
+  - LowHp: {fileID: 21300000, guid: ec9c19e96a0466f49b4eea0a97cc1ad4, type: 3}
+  - Dead: {fileID: 21300000, guid: 28d5e6c0429d03149bc0fedf05aa15d8, type: 3}
+  - score: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

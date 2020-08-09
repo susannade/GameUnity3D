@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    int score = 0;
-    int health = 3;
-    int stars = 0;
+    public static int score = 0;
+    public static int health = 3;
+    public static int stars = 0;
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Coin"))

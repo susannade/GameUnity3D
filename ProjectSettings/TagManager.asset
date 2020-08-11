@@ -7,6 +7,8 @@ TagManager:
   - Coin
   - Enemy
   - Cat
+  - Wall
+  - Star
   layers:
   - Default
   - TransparentFX

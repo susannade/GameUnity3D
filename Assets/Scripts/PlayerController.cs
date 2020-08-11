@@ -29,7 +29,12 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("ZNAJDZ GWIAZDY");
         }
-
+        if (other.CompareTag("Star") && stars != 3)
+        {
+            stars++;
+            other.gameObject.SetActive(false);
+            Debug.Log("Stars:"+stars);
+        }
     }
     void Start()
     {

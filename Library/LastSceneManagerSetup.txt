@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 sceneSetups:
 - path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+||||||| merged common ancestors
+=======
+sceneSetups:
+- path: Assets/Scenes/StartMenu.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> master

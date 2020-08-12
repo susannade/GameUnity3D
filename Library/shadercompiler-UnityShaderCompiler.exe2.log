@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Base path: 'C:/Program Files/Unity/Hub/Editor/2020.2.0a18/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.2.0a18/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+||||||| merged common ancestors
+=======
+Base path: 'Z:/Progs/unity/2020.2.0a18/Editor/Data', plugins path 'Z:/Progs/unity/2020.2.0a18/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+>>>>>>> master

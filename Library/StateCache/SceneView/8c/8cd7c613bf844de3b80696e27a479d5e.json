@@ -1,6 +1,1 @@
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-20.02717399597168,"y":2.3689849376678469,"z":-29.431949615478517},"rotation":{"x":0.06383013725280762,"y":0.0284388717263937,"z":-0.0018088507931679488,"w":0.9975646138191223},"size":1.7394585609436036,"orthographic":false}
-||||||| merged common ancestors
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":365.36663818359377,"y":210.58473205566407,"z":-27.518234252929689},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":240.7587890625,"orthographic":true}
->>>>>>> master

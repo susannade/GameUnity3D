@@ -8,13 +8,17 @@ using UnityEngine;
 public class ThirdPersonCharacterController : MonoBehaviour
 {
     public float Speed;
+    public float verticalVelocity;
+    public float gravity = 14.0f;
     public Rigidbody rb;
     public bool isGrounded;
-
+    Animator anim;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -23,21 +27,42 @@ public class ThirdPersonCharacterController : MonoBehaviour
         PlayerMovement();
     }
 
-    
-
     void PlayerMovement() // odpowiada za ruch i skoki gracza
     {
+        //verticalVelocity = -gravity * Time.deltaTime;
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
         Vector3 playerMovement = new Vector3(hor, 0f, ver) * Speed * Time.deltaTime;
         transform.Translate(playerMovement, Space.Self);
 
+        if (Input.GetKey("up"))
+        {
+            anim.SetInteger("condition", 1);
+        }
+        if (Input.GetKeyUp("up"))
+        {
+            anim.SetInteger("condition", 0);
+        }
+        if (Input.GetKey("down"))
+        {
+            anim.SetInteger("condition", 1);
+        }
+        if (Input.GetKeyUp("down"))
+        {
+            anim.SetInteger("condition", 0);
+        }
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            
             rb.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
             isGrounded = false;
+            
+            //verticalVelocity -= gravity * Time.deltaTime;
         }
+
+
+
 
     }
     private void OnCollisionEnter(Collision collision) 

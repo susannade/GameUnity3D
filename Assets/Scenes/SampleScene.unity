@@ -2389,6 +2389,10 @@ PrefabInstance:
       propertyPath: m_UpdateMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9565948, guid: f657c58adb4c219419ae056411d88e27, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4d743d0cf30b0a24695e27a04384707f, type: 2}
     - target: {fileID: 64070791116239178, guid: f657c58adb4c219419ae056411d88e27, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -3930,7 +3934,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4469cbd393f3b7b498a0d51be412cb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 6
+  verticalVelocity: 0
+  gravity: 14
   rb: {fileID: 0}
   isGrounded: 0
 --- !u!54 &1635288204
